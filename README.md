@@ -1,24 +1,59 @@
-# README
+# Hello-React-Rails
+> The hello rails react app is a website that displays a random greeting with a button click. It uses a Ruby on Rails backend which contains a greeting api endpoint and React front-end to display greeting message fetched from the rails api.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby on Rails
+- React
+- Redux
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+- React
+- Redux
+- Ruby
+- Ruby on Rails
+- PostgreSQL
 
-* Configuration
+## Install
 
-* Database creation
+- Ruby
+- Ruby on Rails(as a gem)
+- react-rails gem
+- Postgresql database
 
-* Database initialization
+## Getting Started
 
-* How to run the test suite
+To get a local copy of the app, run the following commans in your terminal:
+- `git clone git@github.com:Fikerte-T/hello-rails-react2.git`
+- `cd hello-rails-react2`
+- `bundle install`
 
-* Services (job queues, cache servers, search engines, etc.)
+Run the following commands to run the app
 
-* Deployment instructions
+- `rails db:create`
+- `rails db:migrate`
+- `rails s`
 
-* ...
+In your browser, go to
+
+- `http://localhost:3000/greetings`
+
+
+## Authors
+
+👤 **Fikerte Tesfaye** 
+
+- GitHub: [@Fikerte-T](https://github.com/Fikerte-T)
+- Twitter: [@tofikertesfaye](https://twitter.com/tofikertesfaye)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fikerte-tesfaye-a68337216/)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
